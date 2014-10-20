@@ -1,4 +1,2 @@
-Vert.x-as-a-platform-for-web-application
+Tex Template
 ========================================
-
-Bachelor thesis - Vert.x, MongoDB, D3.js
