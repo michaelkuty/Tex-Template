@@ -1,0 +1,49 @@
+
+
+\chapter{Robotice}
+
+\section{Introduction}
+
+Python daemon for collecting data from peripherals(sensors, ..) and sending instructions into external actuators.
+
+\subsection{Motivation}
+
+Lowermost layer of Robotice which must resolve differences in single-board computers(BB, Rpi, etc.). We must have driver for every device and every platform.
+
+\subsection{Goals}
+
+\begin{description}
+
+\item[Collecting and Acting] - GPIO, I2C drivers etc.
+\item[Autonomous] - collecting and acting must work without internet connection
+\item[Support] - support for most of OS and SB computers
+
+\end{description}
+
+\subsection{Problem Statement}
+
+\begin{itemize}
+
+\item{Drivers for external peripheral devices(GPIO, I2C, ..)}
+\item{Differences in single-board computers}
+\item{Differences on the OS Layer(pkgs, etc.)}
+
+\end{itemize}
+
+\subsection{Related Projects}
+
+\subsubsection{Cylon.JS}
+
+Platform builded on the Node.js under JavaScript language. Supported is about thirty platforms, as BeagleBone, Rpi, and Drone.
+
+\subsubsection{Artoo}
+
+Ruby copy of Cylon.JS
+
+\subsubsection{Gobot}
+
+Gobot is a framework for robotics, physical computing, and the Internet of Things, written in the Go programming language
+
+\subsection{Structure of Project}
+
+...
